@@ -10,6 +10,8 @@ body {
 }
 
 .input {
+    font-family: "Saira", sans-serif;
+    font-size: larger;
     height: 70px;
     width: 500px;
     margin: auto;
@@ -31,4 +33,9 @@ body {
     color: white;
     font-weight: bold;
     font-size: large;
+}
+
+#output {
+    font-family: "Saira", sans-serif;
+    font-size: larger;
 }
