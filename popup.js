@@ -1,24 +1,24 @@
 /*
 Psudo code____logic
 
-START
 
-GET reference to button
-GET reference to textarea
-GET reference to output div
+ON button click:
 
-WHEN button is clicked:
+    GET input
 
-    GET value from textarea
+    IF empty → show error
 
-    IF input is empty:
-        SHOW "Please paste a problem"
-    
     ELSE:
-        GENERATE hint (for now → static text)
-        DISPLAY hint in output div
+        SEND request to Gemini API
+            include:
+                - user problem
+                - instruction: "give hint only"
 
-END
+        WAIT for response
+
+        EXTRACT text from response
+
+        DISPLAY it
 */
 
 // Step 1: Get elements
