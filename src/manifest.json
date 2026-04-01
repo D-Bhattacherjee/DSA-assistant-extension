@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "DSA Assistant",
+  "version": "1.0",
+  "description": "Get hints for DSA problems",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": []
+}
